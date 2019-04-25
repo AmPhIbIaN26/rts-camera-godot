@@ -52,7 +52,7 @@ Make sure the nodes are arranged as shown above.
  
   ### Acknowledgement
    I would really like to thank the people [godot discord server](https://discordapp.com/invite/zH7NUgz) who really helped me to clear      my doubts and teach me new and alternative methods to approach any problem.
-   Special thanks to these people from the [discord server](https://discordapp.com/invite/zH7NUgz) who really help me a lot
+   And special thanks to these people from the [discord server](https://discordapp.com/invite/zH7NUgz) who really help me a lot
    * **TheDuriel**
    * **TakedownBIG**
    * **kidscancode**
