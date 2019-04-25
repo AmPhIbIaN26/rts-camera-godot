@@ -18,4 +18,4 @@ This script isn't exactly "plug and play" unless it is in the root node.
 
 
 ### Setup
-	![Setup](/scene_tree.png)
+![Setup](/scene_tree.png)
