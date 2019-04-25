@@ -59,4 +59,4 @@ Make sure the nodes are arranged as shown above.
    * **WingedAdventurer**
    * **DagobertDick**
    * **Nwallen**
-   * **kubecz3k**
+   * **kubecz3k**[twitter](https://twitter.com/kubecz3k)
