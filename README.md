@@ -50,4 +50,13 @@ Make sure the nodes are arranged as shown above.
   * max_zoom - limit of zooming out.
   * min_zoom - limit of zooming in.
  
-  
+  ### Acknowledgement
+   I would really like to thank the [godot discord server](https://discordapp.com/invite/zH7NUgz) who really helped me to clear my doubts and teach me new and alternative methods to approach any problem.
+   Special thanks to these people from the [discord server](https://discordapp.com/invite/zH7NUgz) who really help me a lot
+   * **TheDuriel**
+   * **TakedownBIG**
+   * **kidscancode**
+   * **WingedAdventurer**
+   * **DagobertDick**
+   * **Nwallen**
+   * **kubecz3k**
