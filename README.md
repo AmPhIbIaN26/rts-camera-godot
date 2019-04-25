@@ -16,6 +16,10 @@ This script isn't exactly "plug and play",unless it is in the root node. Since i
  * Add follow camera.
  * Add de-accelaration to tilting in tilt_node.
  * Make zooming smooth
+ * Configurable Keys
+ * Jump to location
+ * Reset to normal orientation
+ * (Optional) Picture in picture
  
  
 ### Setup
@@ -59,4 +63,4 @@ Make sure the nodes are arranged as shown above.
    * **WingedAdventurer**
    * **DagobertDick**
    * **Nwallen**
-   * **kubecz3k**[twitter](https://twitter.com/kubecz3k)
+   * **kubecz3k** [twitter](https://twitter.com/kubecz3k)
