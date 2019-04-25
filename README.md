@@ -59,7 +59,7 @@ Make sure the nodes are arranged as shown above.
    And special thanks to these people from the [discord server](https://discordapp.com/invite/zH7NUgz) who really help me a lot
    * **TheDuriel**
    * **TakedownBIG** [twitter](https://twitter.com/CantaloupeStud1)
-   * **kidscancode**
+   * **kidscancode** [twitter](https://twitter.com/kidscancode), [youtube](https://www.youtube.com/channel/UCNaPQ5uLX5iIEHUCLmfAgKg)
    * **WingedAdventurer**
    * **DagobertDick**
    * **Nwallen**
