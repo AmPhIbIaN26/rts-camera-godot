@@ -19,7 +19,7 @@ This script isn't exactly "plug and play",unless it is in the root node. Since i
  
  
 ### Setup
-![Setup](/scene_tree.png)<br />
+![Setup](/Screenshots/scene_tree.png)<br />
 Make sure the nodes are arranged as shown above.
 * '*move_node*' and '*tilt_node*' are **Position3D** node
 * '*camera*' is a **Camera** node
