@@ -18,5 +18,5 @@ This script isn't exactly "plug and play" unless it is in the root node.
 
 
 ### Setup
-	![Setup](https://drive.google.com/open?id=12WDHxI0j-cHHYU2abyTvWlsR42XKQNHP)
+	![Setup](/Screenshots/Scene_Tree.png)
 
