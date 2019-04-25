@@ -1,11 +1,10 @@
 extends Position3D
 
 export(int) var ang_acc = 1
-export(int) var ang_dec = 6
 export(int) var MAX_ANG_SPEED = 50
 export(float) var low = -0.2
 export(float) var high = 0.8
-export(float) var MOUSE_SENSITIVITY = 0.0005
+export(float) var MOUSE_SENSITIVITY = 0.0001
 
 var angu = 1
 var angd = -1
@@ -27,8 +26,6 @@ func _input(event):
 				print(rotation.x)
 
 func _process(delta):
-	if Input.is_key_pressed(KEY_TAB):
-		global_transform.origin = Vector3(0,0,0)
 	if Input.is_key_pressed(KEY_R):
 		if rotation.x <= (high):	
 			angd += ang_acc * delta			
