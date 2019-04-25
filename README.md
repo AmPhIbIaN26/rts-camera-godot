@@ -18,5 +18,5 @@ This script isn't exactly "plug and play" unless it is in the root node.
 
 
 ### Setup
-	![Setup](rts-camera-godot/Screenshots/Scene_Tree.png)
+	![Setup](https://drive.google.com/open?id=12WDHxI0j-cHHYU2abyTvWlsR42XKQNHP)
 
