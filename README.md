@@ -18,5 +18,5 @@ This script isn't exactly "plug and play" unless it is in the root node.
 
 
 ### Setup
-	![Image](Screenshots/Scene_Tree)
+	![Image](/Screenshots/Scene_Tree.png)
 
