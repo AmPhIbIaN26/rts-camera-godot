@@ -1,4 +1,4 @@
-extends Position3D
+extends Spatial
 
 export(float) var area_percent = 0.1
 export(int) var acc = 10

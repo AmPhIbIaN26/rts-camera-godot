@@ -1,4 +1,4 @@
-extends Position3D
+extends Spatial
 
 export(int) var ang_acc = 1
 export(int) var MAX_ANG_SPEED = 50
