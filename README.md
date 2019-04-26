@@ -1,6 +1,6 @@
 # rts-camera-godot
 
-This script "plug and play", read [setup](#setup) section for detailed information. Since it's my first time making anything in any kind on game engine, if you have any suggestions here is my [twitter](https://twitter.com/AmPhIbIaN26). Feel free to use or contribute to the code any how you want, just mention my attribution that's it. 
+This script "plug and play", read [setup](#setup) section for detailed information. Since it's my first time making anything in any kind on game engine, if you have any suggestions here is my [twitter](https://twitter.com/AmPhIbIaN26). Feel free to use or contribute to the code any how you want, just add my attribution and the LICENSE file to your project that's it. 
 
 ### Present Features
 * Movement with 'W','A','S','D'.
