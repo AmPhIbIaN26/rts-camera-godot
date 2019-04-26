@@ -24,7 +24,9 @@ This script isn't exactly "plug and play",unless it is in the root node. Since i
  
 ### Setup
 ![Setup](/Screenshots/scene_tree.png)<br />
-Make sure the nodes are arranged as shown above.
+Make sure the nodes are arranged as shown above, and '*move_node*' and '*tilt_node*' are at the same position, 
+you can place the camera where ever you want. 
+
 * '*move_node*' and '*tilt_node*' are **Position3D** node
 * '*camera*' is a **Camera** node
 
