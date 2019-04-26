@@ -26,7 +26,10 @@ The DEMO.mp4 video in the root folder shows the working of this script, there is
  
  
 ### Setup
-Simply add the Camera.tscn form the Example folder to your scene tree and it will work fine.<br />
+Simply add the Camera.tscn form the Example folder to your scene tree and it will work fine.
+**Note: If you want to change the default camera angle(looking down, left or right), do that changes to the *camera* node in Camera.tscn before adding it to any scene or project**
+<br />
+
 
 ![Setup](/Screenshots/camera_scene_tree.jpg)<br />
 This is how the Camera.tscn is setup, it's for reference to the contributors.<br />
