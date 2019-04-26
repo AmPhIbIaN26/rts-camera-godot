@@ -28,7 +28,7 @@ The DEMO.mp4 video in the root folder shows the working of this script, there is
 ### Setup
 Simply add the Camera.tcsn form the Example folder to your scene tree and it will work fine.<br />
 This is how the Camera.tcsn is setup, it's for reference to the contributors.<br />
-![Setup](/Screenshots/camera_scene_tree.png)<br />
+![Setup](/Screenshots/camera_scene_tree.jpg)<br />
 
 * '*move_node*' and '*tilt_node*' are **Spatial** nodes.
 * '*camera*' is a **Camera** node.
