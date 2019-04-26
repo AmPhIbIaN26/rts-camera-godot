@@ -12,7 +12,7 @@ This script "plug and play", read [setup](#setup) section for detailed informati
 * Majority of the variables are exported to make tweaking, on the go, easy.
 
 ### Demo
-The DEMO.mp4 video in the root folder shows the working of this script, there is also a Example.tcsn in the Example folder, to try it out for your self before getting deep into it. 
+The DEMO.mp4 video in the root folder shows the working of this script, there is also a Example.tscn in the Example folder, to try it out for your self before getting deep into it. 
 
 ### To-do/Upcoming features
  * Make movement smoother.
@@ -26,10 +26,10 @@ The DEMO.mp4 video in the root folder shows the working of this script, there is
  
  
 ### Setup
-Simply add the Camera.tcsn form the Example folder to your scene tree and it will work fine.<br />
-This is how the Camera.tcsn is setup, it's for reference to the contributors.<br />
-![Setup](/Screenshots/camera_scene_tree.jpg)<br />
+Simply add the Camera.tscn form the Example folder to your scene tree and it will work fine.<br />
 
+![Setup](/Screenshots/camera_scene_tree.jpg)<br />
+This is how the Camera.tscn is setup, it's for reference to the contributors.<br />
 * '*move_node*' and '*tilt_node*' are **Spatial** nodes.
 * '*camera*' is a **Camera** node.
 
