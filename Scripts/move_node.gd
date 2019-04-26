@@ -34,7 +34,7 @@ func _input(event):
 
 	
 	if event is InputEventMouseMotion and Input.get_mouse_mode() == Input.MOUSE_MODE_CAPTURED:
-		self.rotate_z(event.relative.x * MOUSE_SENSITIVITY)
+		self.rotate_y(event.relative.x * MOUSE_SENSITIVITY)
 
 func _process(delta):
 	pos = get_viewport().size
@@ -58,7 +58,7 @@ func _process(delta):
 	elif (crsr.y < int(pos.y*area_percent)) or Input.is_key_pressed(KEY_W):
 
 		dir = Vector3(0,0,0)
-		dir.y += 1
+		dir.z += 1
 		speed += acc * delta
 		speed = clamp(speed,0,MAX_SPEED)
 		translate(dir*delta*speed)
@@ -66,7 +66,7 @@ func _process(delta):
 	elif (crsr.y > (pos.y-(pos.y*area_percent))) or Input.is_key_pressed(KEY_S):
 
 		dir = Vector3(0,0,0)
-		dir.y -= 1
+		dir.z -= 1
 		speed += acc * delta
 		speed = clamp(speed,0,MAX_SPEED)
 		translate(dir*delta*speed)
@@ -81,21 +81,21 @@ func _process(delta):
 		
 		angr += ang_acc * delta
 		angr = clamp(angr,0,MAX_ANG_SPEED)
-		rotate_z(angr*delta)
+		rotate_y(angr*delta)
 		
 		
 	elif Input.is_key_pressed(KEY_Q):
 		
 		angl += ang_acc * delta
 		angl = clamp(angl,0,MAX_ANG_SPEED)
-		rotate_z(-angl*delta)
+		rotate_y(-angl*delta)
 		
 
 	else:
 		
 		angr -= ang_dec * delta
 		angr = clamp(angr,0,MAX_ANG_SPEED)
-		rotate_z(angr*delta)
+		rotate_y(angr*delta)
 		angl -= ang_dec * delta
 		angl = clamp(angl,0,MAX_ANG_SPEED)
-		rotate_z(-angl*delta)		
+		rotate_y(-angl*delta)		
