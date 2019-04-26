@@ -1,6 +1,6 @@
 # rts-camera-godot
 
-This script isn't exactly "plug and play",unless it is in the root node. Since it's my first time making anything in any kind on game engine, if you have any suggestions here is my [twitter](https://twitter.com/AmPhIbIaN26). Feel free to use or contribute to the code any how you want, just mention my attribution that's it. 
+This script "plug and play", read [setup](#setup) section for detailed information. Since it's my first time making anything in any kind on game engine, if you have any suggestions here is my [twitter](https://twitter.com/AmPhIbIaN26). Feel free to use or contribute to the code any how you want, just mention my attribution that's it. 
 
 ### Present Features
 * Movement with 'W','A','S','D'.
@@ -10,6 +10,9 @@ This script isn't exactly "plug and play",unless it is in the root node. Since i
 * Zoom in and out with scroll wheel.
 * Point and look while pressing middle mouse and dragging.
 * Majority of the variables are exported to make tweaking, on the go, easy.
+
+### Demo
+The DEMO.mp4 video in the root folder shows the working of this script, there is also a Example.tcsn in the Example folder, to try it out for your self before getting deep into it. 
 
 ### To-do/Upcoming features
  * Make movement smoother.
@@ -23,12 +26,12 @@ This script isn't exactly "plug and play",unless it is in the root node. Since i
  
  
 ### Setup
-![Setup](/Screenshots/scene_tree.png)<br />
-Make sure the nodes are arranged as shown above, and '*move_node*' and '*tilt_node*' are at the same position, 
-you can place the camera where ever you want. 
+Simply add the Camera.tcsn form the Example folder to your scene tree and it will work fine.<br />
+This is how the Camera.tcsn is setup, it's for reference to the contributors.<br />
+![Setup](/Screenshots/camera_scene_tree.png)<br />
 
-* '*move_node*' and '*tilt_node*' are **Position3D** node
-* '*camera*' is a **Camera** node
+* '*move_node*' and '*tilt_node*' are **Spatial** nodes.
+* '*camera*' is a **Camera** node.
 
 ### Script Description
 #### move_node
