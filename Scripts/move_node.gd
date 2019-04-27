@@ -15,13 +15,10 @@ var speed = 0
 var dir = Vector3(0,0,0)
 var pos = Vector2(0,0)
 var crsr = Vector2(0,0)
-var scn
-var camera
-var rotation_helper
 
 func _ready():
 	set_process(true)	
-	scn = get_node("Scene")
+	Input.set_mouse_mode(Input.MOUSE_MODE_CONFINED)
 func _input(event):
 	if event is InputEventMouseMotion: 
 		crsr = event.position
