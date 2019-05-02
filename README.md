@@ -15,7 +15,7 @@ This script "plug and play", read [setup](#setup) section for detailed informati
 The DEMO.mp4 video in the root folder shows the working of this script, there is also a Example.tscn in the Example folder, to try it out for your self before getting deep into it. 
 
 ### To-do/Upcoming features
- * Make movement smoother.
+ * Add diagonal movement.
  * Add follow camera.
  * Add de-accelaration to tilting in tilt_node.
  * Make zooming smooth
