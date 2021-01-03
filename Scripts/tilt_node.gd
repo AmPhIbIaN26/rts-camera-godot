@@ -1,6 +1,7 @@
 extends Spatial
 
-export(int) var ang_acc = 1
+export(int) var ang_acc = 3
+export(int) var ang_dec = 8
 export(int) var MAX_ANG_SPEED = 50
 export(float) var low = -0.2
 export(float) var high = 0.8
@@ -21,26 +22,36 @@ func _input(event):
 
     
     if event is InputEventMouseMotion and Input.get_mouse_mode() == Input.MOUSE_MODE_CAPTURED:
-        rotation.x = clamp(rotation.x,-0.2,0.8)
+        rotation.x = clamp(rotation.x, low, high)
         rotate_x(event.relative.y * MOUSE_SENSITIVITY)
         print(rotation.x)
 
 func _process(delta):
     if Input.is_key_pressed(KEY_R):
-        if rotation.x <= (high):	
-            angd += ang_acc * delta			
-            angd = clamp(angd,0,MAX_ANG_SPEED)
-            rotate_x(angd*delta)
-            print(rotation.x)
-            
-    
-    elif Input.is_key_pressed(KEY_F):
-        if rotation.x >= (low):
-            angu += ang_acc * delta
-            angu = clamp(angu,0,MAX_ANG_SPEED)
-            rotate_x(-angu*delta)
-            print(rotation.x)
+		if rotation.x <= (high):
+			angd += ang_acc * delta
+			angd = clamp(angd,0,MAX_ANG_SPEED)
+			rotation.x = clamp(rotation.x, low, high)
+			rotate_x(angd*delta)
+			rotation.x = clamp(rotation.x, low, high)
+			
+	
+	elif Input.is_key_pressed(KEY_F):
+		if rotation.x >= (low):
+			angu += ang_acc * delta
+			angu = clamp(angu,0,MAX_ANG_SPEED)
+			rotation.x = clamp(rotation.x, low, high)
+			rotate_x(-angu*delta)
+			rotation.x = clamp(rotation.x, low, high)
 
-    else:
-        angu = 0
-        angd = 0
+	else:
+		angd -= ang_dec * delta
+		angd = clamp(angd,0,MAX_ANG_SPEED)
+		rotation.x = clamp(rotation.x, low, high)
+		rotate_x(angd*delta)
+		rotation.x = clamp(rotation.x, low, high)
+		angu -= ang_dec * delta
+		angu = clamp(angu,0,MAX_ANG_SPEED)
+		rotation.x = clamp(rotation.x, low, high)
+		rotate_x(-angu*delta)
+		rotation.x = clamp(rotation.x, low, high)
