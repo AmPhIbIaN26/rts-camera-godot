@@ -14,6 +14,7 @@ var angr = 1
 var speed = 0
 var pos = Vector2(0,0)
 var crsr = Vector2(0,0)
+var dir = Vector3(0, 0, 0)
 
 func _ready():
 	set_process(true)	
