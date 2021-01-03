@@ -15,6 +15,7 @@ var speed = 0
 var pos = Vector2(0,0)
 var crsr = Vector2(0,0)
 var dir = Vector3(0, 0, 0)
+var mouse_in
 
 func _ready():
 	set_process(true)	
@@ -90,3 +91,10 @@ func _process(delta):
 		angl -= ang_dec * delta
 		angl = clamp(angl,0,MAX_ANG_SPEED)
 		rotate_y(-angl*delta)		
+
+func _notification(what):
+	match what:
+		NOTIFICATION_WM_MOUSE_ENTER:
+			mouse_in = true
+		NOTIFICATION_WM_MOUSE_EXIT:
+			mouse_in = false
