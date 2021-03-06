@@ -88,3 +88,4 @@ shape = SubResource( 8 )
 
 [node name="CameraMovement" parent="." instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.00735, 3.84052 )
+area_percent = 0.01

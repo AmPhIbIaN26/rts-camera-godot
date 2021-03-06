@@ -3,10 +3,10 @@ extends Spatial
 export(float) var area_percent = 0.1
 export(int) var acc = 8
 export(int) var dec = 18
-export(int) var MAX_SPEED = 100
+export(int) var MAX_SPEED = 30
 export(int) var ang_acc = 3
 export(int) var ang_dec = 8
-export(int) var MAX_ANG_SPEED = 50
+export(int) var MAX_ANG_SPEED = 20
 export(float) var MOUSE_SENSITIVITY = 0.001
 export(bool) var invert_rotation_keys = false
 export(bool) var edge_scrolling = true
@@ -105,7 +105,8 @@ func _process(delta):
 	ang_speed = clamp(ang_speed, 0, MAX_ANG_SPEED)
 	if ang_dir:
 		rotate(ang_dir, ang_speed*delta)
-	realign_camera(pointing_at)
+	if pointing_at:
+		realign_camera(pointing_at)
 	
 	if Input.is_action_pressed("camera_pan_around"):
 		var current_mouse_pos = get_viewport().get_mouse_position()

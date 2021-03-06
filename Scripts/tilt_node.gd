@@ -2,7 +2,7 @@ extends Spatial
 
 export(int) var ang_acc = 1
 export(int) var ang_dec = 5
-export(int) var MAX_ANG_SPEED = 50
+export(int) var MAX_ANG_SPEED = 20
 export(float) var low = -0.1
 export(float) var high = -1
 export(float) var MOUSE_SENSITIVITY = 0.001
