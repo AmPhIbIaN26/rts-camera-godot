@@ -3,26 +3,26 @@
 This script "plug and play", read [setup](#setup) section for detailed information. Since it's my first time making anything in any kind on game engine, if you have any suggestions here is my [twitter](https://twitter.com/AmPhIbIaN26). Feel free to use or contribute to the code any how you want, just add my attribution and the LICENSE file to your project that's it. 
 
 ### Present Features
-* Movement with 'W','A','S','D'.
-* Movement with cursor when at the edge of the screen, like some RTS games.
-* Panning left and right with 'Q' and 'E'.
-* Tilting up and down with 'R' and 'F'.
-* Zoom in and out with scroll wheel.
-* Point and look while pressing middle mouse and dragging.
-* Majority of the variables are exported to make tweaking, on the go, easy.
+- [x] Movement with 'W','A','S','D'.
+- [x] Movement with cursor when at the edge of the screen, like some RTS games.
+- [x] Panning left and right with 'Q' and 'E'.
+- [x] Tilting up and down with 'R' and 'F'.
+- [ ] Zoom in and out with scroll wheel.
+- [x] Point and look while pressing middle mouse and dragging.
+- [ ] Majority of the variables are exported to make tweaking, on the go, easy.
 
 ### Demo
 The DEMO.mp4 video in the root folder shows the working of this script, there is also a Example.tscn in the Example folder, to try it out for your self before getting deep into it. 
 
 ### To-do/Upcoming features
- * Add diagonal movement.
- * Add follow camera.
- * Add de-accelaration to tilting in tilt_node.
- * Make zooming smooth
- * Configurable Keys
- * Jump to location
- * Reset to normal orientation
- * (Optional) Picture in picture
+ - [x] Add diagonal movement.
+ - [ ] Add follow camera.
+ - [x] Add de-accelaration to tilting in tilt_node.
+ - [ ] Make zooming smooth
+ - [ ] Configurable Keys
+ - [ ] Jump to location
+ - [ ] Reset to normal orientation
+ - [ ] (Optional) Picture in picture
  
  
 ### Setup
